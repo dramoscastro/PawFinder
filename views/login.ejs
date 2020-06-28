@@ -14,8 +14,16 @@
 
     <!-- center of page text -->
     <h1>PawFinder</h1>
-    <h3>Swipe right to find your furry friend!</h3>
 
-    <p>login/signup</p>
+    <form action="/login" method="POST">
+      <input
+        type="text"
+        class="user-input"
+        placeholder="login"
+        name="text"
+        required
+      />
+      <input type="submit" class="user-button" value="Add" />
+    </form>
   </body>
 </html>
