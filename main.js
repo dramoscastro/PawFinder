@@ -48,6 +48,11 @@ app.get("/", function (req, res) {
 app.get("/login", function (req, res) {
   res.render("login.ejs");
 });
+
+//GET TEST PAGE
+app.get("/test", function (req, res) {
+  res.render("test.ejs");
+});
 // APP listen code
 app.listen(PORT, function () {
   console.log("App listening on PORT " + PORT);
