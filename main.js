@@ -1,12 +1,13 @@
 // Dependencies
 var express = require("express");
-var mysql = require("mysql");
+// var mysql = require("mysql");
 
 // Initialization
 var app = express();
 
 // View Engine
 app.set("view engine", "ejs");
+
 // MIDDLEWARE -------------------
 app.use(express.static("public")); // adding static assets (css, img, js files)
 app.use(express.urlencoded({ extended: false })); // reads the data
@@ -43,3 +44,11 @@ app.get("/", function (req, res) {
 //     res.render("list-of-todos.ejs", { list: results });
 //   });
 // });
+//GET LOGIN PAGE
+app.get("/login", function (req, res) {
+  res.render("login.ejs");
+});
+// APP listen code
+app.listen(PORT, function () {
+  console.log("App listening on PORT " + PORT);
+});
