@@ -50,8 +50,8 @@ app.get("/login", function (req, res) {
 });
 
 //GET TEST PAGE
-app.get("/test", function (req, res) {
-  res.render("test.ejs");
+app.get("/survey", function (req, res) {
+  res.render("survey.ejs");
 });
 
 // APP listen code
