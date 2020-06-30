@@ -7,16 +7,15 @@ USE PawFinder;
 CREATE TABLE users(
 	id INT NOT NULL AUTO_INCREMENT,
 	name varchar(255) NOT NULL,
-    last name varchar(255) NOT NULL,
+    last_name varchar(255) NOT NULL,
 	email VARCHAR (255),
 	username VARCHAR (255),
-	city VARCHAR (255),
-	state VARCHAR (10),
+	zipcode VARCHAR (5),
     PRIMARY KEY(id)
 );
 CREATE TABLE userpets(
 	id INT NOT NULL AUTO_INCREMENT,
-	text varchar(255) NOT NULL,
-    updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	pet_id INT NOT NULL ,
+    user_id INT NOT NULL,
 	PRIMARY KEY(id)
 );
