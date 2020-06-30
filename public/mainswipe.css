@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #ccfbfe;
+  background: #b79d94;
   overflow: hidden;
   font-family: sans-serif;
 }
@@ -136,9 +136,9 @@ body {
 }
 
 .fa-heart {
-  color: #fface4;
+  color: #b02e0c;
 }
 
 .fa-remove {
-  color: #cdd6dd;
+  color: #083d77;
 }
