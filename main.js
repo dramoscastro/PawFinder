@@ -54,6 +54,10 @@ app.get("/survey", function (req, res) {
   res.render("survey.ejs");
 });
 
+app.get("/message", function (req, res) {
+  res.render("messages.ejs");
+});
+
 //GET MAIN SWIPE PAGE
 app.get("/mainswipe", function (req, res) {
   res.render("mainswipe.ejs");
