@@ -58,7 +58,10 @@ app.get("/survey", function (req, res) {
 app.get("/mainswipe", function (req, res) {
   res.render("mainswipe.ejs");
 });
-
+//GET SHELTER  PAGE
+app.get("/shelterpage", function (req, res) {
+  res.render("shelterpage.ejs");
+});
 // APP listen code
 app.listen(PORT, function () {
   console.log("App listening on PORT " + PORT);
