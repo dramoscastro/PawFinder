@@ -18,19 +18,19 @@ app.use(express.json()); // format the data coming in as an object under a prope
 //PORT
 var PORT = process.env.PORT || 3000;
 
-DataBase Stuff
+// DataBase Stuff
 var db = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "password",
-    database: "PawFinder",
-  });
+  host: "localhost",
+  user: "root",
+  password: "password",
+  database: "PawFinder",
+});
 
 db.connect(function (error) {
-    if (error) throw error;
+  if (error) throw error;
 
-    console.log("MYSQL is connected");
-  });
+  console.log("MYSQL is connected");
+});
 
 // *********** ROUTES ***********
 
@@ -62,8 +62,11 @@ app.get("/message", function (req, res) {
 
 //GET MAIN SWIPE PAGE
 app.get("/mainswipe", function (req, res) {
+  // api call to get all pets from petfinder
+
   res.render("mainswipe.ejs");
 });
+
 //GET SHELTER  PAGE
 app.get("/shelterpage", function (req, res) {
   res.render("shelterpage.ejs");
@@ -72,10 +75,7 @@ app.get("/shelterpage", function (req, res) {
 app.get("/messages", function (req, res) {
   res.render("messages.ejs");
 });
-//GET MESSAGES  PAGE
-app.get("/messages", function (req, res) {
-  res.render("messages.ejs");
-});
+
 // APP listen code
 app.listen(PORT, function () {
   console.log("App listening on PORT " + PORT);
