@@ -1,6 +1,8 @@
 // Dependencies
 var express = require("express");
 var mysql = require("mysql");
+// axios package
+var axios = require("axios");
 
 // Initialization
 var app = express();
