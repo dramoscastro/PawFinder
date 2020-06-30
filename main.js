@@ -16,19 +16,19 @@ app.use(express.json()); // format the data coming in as an object under a prope
 //PORT
 var PORT = process.env.PORT || 3000;
 
-//DataBase Stuff
-// var db = mysql.createConnection({
-//     host: "localhost",
-//     user: "root",
-//     password: "password",
-//     database: "todolist",
-//   });
+DataBase Stuff
+var db = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: "password",
+    database: "PawFinder",
+  });
 
-// db.connect(function (error) {
-//     if (error) throw error;
+db.connect(function (error) {
+    if (error) throw error;
 
-//     console.log("MYSQL is connected");
-//   });
+    console.log("MYSQL is connected");
+  });
 
 // *********** ROUTES ***********
 
