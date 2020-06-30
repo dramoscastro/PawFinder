@@ -66,7 +66,7 @@
 }
 
 .mm-finish-btn button {
-  background: #3dd2af !important;
+  background: #44bba4ff !important;
   color: #fff;
 }
 
@@ -98,7 +98,7 @@
 .mm-survey-progress-bar {
   height: 30px;
   width: 0%;
-  background: linear-gradient(to left, #4cb8c4, #3cd3ad);
+  background: linear-gradient(to left, #44bba4ff, #44bba4ff);
 }
 
 .mm-survey-q {
@@ -174,7 +174,7 @@ input[type="radio"] + label span {
 }
 
 input[type="radio"]:checked + label span {
-  border: 2px solid #3dd2af;
+  border: 2px solid #44bba4ff;
   background: transparent;
 }
 
@@ -240,11 +240,11 @@ input[type="radio"]:checked + label span {
 }
 
 .mm-survey-results-item.correct {
-  background: linear-gradient(to left, #4cb8c4, #3cd3ad);
+  background: linear-gradient(to left, #4cb8c4, #44bba4ff);
 }
 
 .mm-survey-results-item.incorrect {
-  background: linear-gradient(to left, #d33c62, #dc1144);
+  background: linear-gradient(to left, #b02e0cff, #b02e0cff);
 }
 
 .mm-item-number {
