@@ -54,6 +54,11 @@ app.get("/survey", function (req, res) {
   res.render("survey.ejs");
 });
 
+//GET MAIN SWIPE PAGE
+app.get("/mainswipe", function (req, res) {
+  res.render("mainswipe.ejs");
+});
+
 // APP listen code
 app.listen(PORT, function () {
   console.log("App listening on PORT " + PORT);
