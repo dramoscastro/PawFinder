@@ -66,6 +66,10 @@ app.get("/mainswipe", function (req, res) {
 app.get("/shelterpage", function (req, res) {
   res.render("shelterpage.ejs");
 });
+//GET MESSAGES  PAGE
+app.get("/messages", function (req, res) {
+  res.render("messages.ejs");
+});
 // APP listen code
 app.listen(PORT, function () {
   console.log("App listening on PORT " + PORT);
