@@ -8,7 +8,7 @@ CREATE TABLE users
 (
 	id INT NOT NULL
 	AUTO_INCREMENT,
-	name varchar
+	first_name varchar
 	(255) NOT NULL,
     last_name varchar
 	(255) NOT NULL,
@@ -16,6 +16,8 @@ CREATE TABLE users
 	(255),
 	username VARCHAR
 	(255),
+    password VARCHAR(255),
+
 	zipcode VARCHAR
 	(5),
     PRIMARY KEY
