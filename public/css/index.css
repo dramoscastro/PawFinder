@@ -6,7 +6,7 @@ img {
 body {
   height: 100%;
   margin: 0;
-  background-color: black;
+  background-color: #083d77;
 }
 
 .container-fluid.main {
@@ -185,4 +185,7 @@ body {
 .btn.active.focus {
   color: #ffffff;
   outline: none;
+}
+.text-center {
+  color: black;
 }
