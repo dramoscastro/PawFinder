@@ -1,6 +1,8 @@
 // Dependencies
 var express = require("express");
-// var mysql = require("mysql");
+var mysql = require("mysql");
+// axios package
+var axios = require("axios");
 
 // Initialization
 var app = express();
@@ -16,19 +18,19 @@ app.use(express.json()); // format the data coming in as an object under a prope
 //PORT
 var PORT = process.env.PORT || 3000;
 
-//DataBase Stuff
-// var db = mysql.createConnection({
-//     host: "localhost",
-//     user: "root",
-//     password: "password",
-//     database: "todolist",
-//   });
+// DataBase Stuff
+var db = mysql.createConnection({
+  host: "localhost",
+  user: "root",
+  password: "password",
+  database: "PawFinder",
+});
 
-// db.connect(function (error) {
-//     if (error) throw error;
+db.connect(function (error) {
+  if (error) throw error;
 
-//     console.log("MYSQL is connected");
-//   });
+  console.log("MYSQL is connected");
+});
 
 // *********** ROUTES ***********
 
@@ -60,12 +62,20 @@ app.get("/message", function (req, res) {
 
 //GET MAIN SWIPE PAGE
 app.get("/mainswipe", function (req, res) {
+  // api call to get all pets from petfinder
+
   res.render("mainswipe.ejs");
 });
+
 //GET SHELTER  PAGE
 app.get("/shelterpage", function (req, res) {
   res.render("shelterpage.ejs");
 });
+//GET MESSAGES  PAGE
+app.get("/messages", function (req, res) {
+  res.render("messages.ejs");
+});
+
 // APP listen code
 app.listen(PORT, function () {
   console.log("App listening on PORT " + PORT);
