@@ -160,8 +160,8 @@ body {
   padding: 15px 25px;
   font-size: 22px;
   background-image: none;
-  background-color: #ff4000;
-  border-color: #ff4000;
+  background-color: #083d77;
+  border-color: #083d77;
   color: #ffffff;
 }
 
@@ -169,8 +169,8 @@ body {
 .btn:hover {
   border-radius: 0px;
   background-image: none;
-  background-color: #ff4000;
-  border-color: #ff4000;
+  background-color: #b02e0c;
+  border-color: #b02e0c;
   color: #ffffff;
   margin-bottom: 20px;
   box-shadow: none;
