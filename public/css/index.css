@@ -1,3 +1,14 @@
+img {
+  height: 50px;
+  width: 50px;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-color: black;
+}
+
 .container-fluid.main {
   position: relative; /* To make the navbar positions relative to this container */
   padding: 0;
@@ -70,17 +81,17 @@
 
 .carousel .background.a {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/public/images/dog2.jpg");
+    url("/images/dog2.jpg");
 }
 
 .carousel .background.b {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/public/images/dogsandcats.jpg");
+    url("/images/dogsandcats.jpg");
 }
 
 .carousel .background.c {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/public/images/cat4.jpg");
+    url("/images/cat4.jpg");
 }
 
 .carousel-fade .carousel-inner .item {
