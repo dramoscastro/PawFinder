@@ -56,6 +56,10 @@ app.get("/survey", function (req, res) {
   res.render("survey.ejs");
 });
 
+app.get("/signup", function (req, res) {
+  res.render("signup.ejs");
+});
+
 app.get("/message", function (req, res) {
   res.render("messages.ejs");
 });
