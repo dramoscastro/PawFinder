@@ -29,14 +29,14 @@
 .mm-survey-controller {
   position: relative;
   height: 60px;
-  background: #333;
+  background: #44bba4ff;
   padding: 12px 14px;
 }
 
 .mm-survey-results-controller {
   position: relative;
   height: 60px;
-  background: #333;
+  background: #44bba4ff;
   padding: 12px 14px;
 }
 
@@ -98,7 +98,7 @@
 .mm-survey-progress-bar {
   height: 30px;
   width: 0%;
-  background: linear-gradient(to left, #44bba4ff, #44bba4ff);
+  background: linear-gradient(to left, #b79d94, #44bba4ff);
 }
 
 .mm-survey-q {
@@ -170,7 +170,7 @@ input[type="radio"] + label span {
 }
 
 input[type="radio"] + label span {
-  background-color: #333;
+  background-color: white;
 }
 
 input[type="radio"]:checked + label span {
