@@ -4,189 +4,124 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="/index.scss" />
-  
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/index.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <nav index=navbar class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand font-weight-bold" href="#">
-        <img src="   " width="30" height="30" alt="Logo" loading="lazy"> <name>
-       </a>
-      </button>
+    <!-- <div class="container-fluid main">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#myNavbar"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Website</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav> -->
 
-      <div class="navbar-nav" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="text-light nav-link" href="index.ejs">Home |</a>
-          </li>
-          <li class="nav-item">
-            <a class="text-light nav-link" href="login.ejs">Login |</a>
-          </li>
-          <li class="nav-item">
-            <a class="text-light nav-link" href="signup.ejs">Sign Up,Its Free</a>
-          </li>
-          <li class="nav-item">
-            <a class="text-light nav-link" href="mainswipe.ejs">Match |</a>
-          </li>
-          <li class="nav-item">
-            <a class="text-light nav-link" href="messages.ejs"> Messages|</a>
-          </li>
-          <li class="nav-item">
-            <a class="text-light nav-link" href="Survey.ejs">Survey</a>
-          </li>
-          <li class="nav-item">
-            <a class="text-light nav-link" href="shelterpage.ejs">Shelters</a>
-          </li>
-           <li class="nav-item">
-            <a class="text-light nav-link" href="profilepage.ejs">Profile</a>
-          </li>
-        </nav>
+      <div
+        id="myCarousel"
+        class="carousel carousel-fade slide"
+        data-ride="carousel"
+        data-interval="3000"
+      >
+        <div class="carousel-inner" role="listbox">
+          <div class="item active background a"></div>
+          <div class="item background b"></div>
+          <div class="item background c"></div>
+        </div>
+      </div>
+
+      <div class="covertext">
+        <div class="col-lg-10" style="float: none; margin: 0 auto;">
+          <h1 class="title">ELINE</h1>
+          <h3 class="subtitle">
+            A Tidy, Clean, Easy-to-Use, and Responsive Landing Page Template
+          </h3>
+        </div>
+        <div class="col-xs-12 explore">
+          <a href="#"
+            ><button type="button" class="btn btn-lg explorebtn">
+              EXPLORE
+            </button></a
+          >
+        </div>
+      </div>
     </div>
-
-    <nav class="flex-nav">
-      <div class="container">
-        <div class="grid">
-          <div class="column-xs-9 column-md-8">
-            <p id="logo">PawFinder<span id="highlight">.</span></p>
+    <div class="container-fluid main">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#myNavbar"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Website</a>
           </div>
-          <div class="column-xs-3 column-md-4">
-            <a href="#" class="toggle-nav">Menu <i class="ion-navicon-round"></i></a>
-            <ul>
-              <li><a href="shelterpage.ejs">Shelters</a></li>
-              <li><a href="login.ejs">Login</a></li>
-              <li><a href="signup.ejs">Sign Up</a></li>
-
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact Us</a></li>
             </ul>
           </div>
         </div>
-      </div>
-    </nav>
-    <main class="intro-section">
-      <div class="container">
-        <div class="grid">
-          <div class="column-xs-12">
-            <ul class="slider">
-              <li class="slider-item active">
-                <div class="grid vertical">
-                  <div class="column-xs-12 column-md-2 hide-mobile">
-                    <div class="intro">
-                      <a href="#">
-                        <h1 class="title"><span class="underline">Meet youre new bff</span></h1>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="column-xs-12 column-md-10">
-                    <div class="image-holder">
-                      <img src="../public/images/dogsandcats.jpg">
-                    </div>
-                    <div class="grid">
-                      <div class="column-xs-12 column-md-9">
-                        <div class="intro show-mobile">
-                          <a href="#">
-                            <h1 class="title"><span class="underline">Where the dogs at?</span></h1>
-                          </a>
-                        </div>
-                        <p class="description">All dogs are first come first serve so act fast.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="slider-item">
-                <div class="grid vertical">
-                  <div class="column-xs-12 column-md-2 hide-mobile">
-                    <div class="intro">
-                      <a href="#">
-                        <h1 class="title"><span class="underline">Pet Adoption</span></h1>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="column-xs-12 column-md-10">
-                    <div class="image-holder">
-                      <img src="../public/dog3.jpg">
-                    </div>
-                    <div class="grid">
-                      <div class="column-xs-12 column-md-9">
-                        <div class="intro show-mobile">
-                          <a href="#">
-                            <h1 class="title"><span class="underline">Paw Finder</span></h1>
-                          </a>
-                        </div>
-                        <p class="description">Animals are our passion and our goal is to ensure they have the perfect owners.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="slider-item">
-                <div class="grid vertical">
-                  <div class="column-xs-12 column-md-2 hide-mobile">
-                    <div class="intro">
-                      <a href="#">
-                         <h1 class="title"><span class="underline">Find Shelters</span></h1>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="column-xs-12 column-md-10">
-                    <div class="image-holder">
-                      <img src="../public/dog2.jpg">
-                    </div>
-                    <div class="grid">
-                      <div class="column-xs-12 column-md-9">
-                        <div class="intro show-mobile">
-                          <a href="#">
-                            <h1 class="title"><span class="underline">Shelters</span></h1>
-                          </a>
-                        </div>
-                        <p class="description">There are so many animals in shelter, why not help one find a home?</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="slider-item">
-                <div class="grid vertical">
-                  <div class="column-xs-12 column-md-2 hide-mobile">
-                    <div class="intro">
-                      <a href="#">
-                        <h1 class="title"><span class="underline">How To Swipe</span></h1>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="column-xs-12 column-md-10">
-                    <div class="image-holder">
-                      <img src="../public/dog1.jpg">
-                    </div>
-                    <div class="grid">
-                      <div class="column-xs-12 column-md-9">
-                        <div class="intro show-mobile">
-                          <a href="#">
-                            <h1 class="title"><span class="underline">How it works</span></h1>
-                          </a>
-                        </div>
-                        <p class="description">Swipe right to pass or swipe left to like. If its a match youll be put in contact with the shelter and can discuss adoption.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          <div class="grid">
-            <div class="column-xs-12">
-              <div class="controls">
-                  <button class="previous">
-                    <i class="ion-ios-arrow-thin-left"></i>
-                  </a>
-                  <button class="next">
-                    <i class="ion-ios-arrow-thin-right"></i>
-                  </a>
-                </div>
-              </div>
-          </div>
+      </nav>
+
+      <div
+        id="myCarousel"
+        class="carousel carousel-fade slide"
+        data-ride="carousel"
+        data-interval="3000"
+      >
+        <div class="carousel-inner" role="listbox">
+          <div class="item active background a"></div>
+          <div class="item background b"></div>
+          <div class="item background c"></div>
         </div>
       </div>
-    </main>
+
+      <div class="covertext">
+        <div class="col-lg-10" style="float: none; margin: 0 auto;">
+          <h1 class="title">ELINE</h1>
+          <h3 class="subtitle">
+            A Tidy, Clean, Easy-to-Use, and Responsive Landing Page Template
+          </h3>
+        </div>
+        <div class="col-xs-12 explore">
+          <a href="#"
+            ><button type="button" class="btn btn-lg explorebtn">
+              EXPLORE
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
     <script src="/index.js"></script>
   </body>
 </html>
