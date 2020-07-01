@@ -7,7 +7,7 @@ footer {
 
 body {
   /* Typography Declarations */
-  color: #b79d94;
+  color: #083d77;
   font-size: 1em;
   font-family: "Open Sans", Neue "Helvetica ", sans-serif;
 }
@@ -45,7 +45,7 @@ body {
 }
 
 .masthead {
-  background-image: url("cute_dogs-normal.jpg");
+  background-image: url("/images/cute_dogs-normal.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   /* Layout Declarations */
