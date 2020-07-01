@@ -16,9 +16,11 @@ CREATE TABLE users
 	(255),
 	username VARCHAR
 	(255),
-    "password" VARCHAR(255) NOT NULL,
-	zipcode VARCHAR
+    zipcode VARCHAR
 	(5),
+
+    password VARCHAR(255) NOT NULL,
+
     PRIMARY KEY
 	(id)
 );
