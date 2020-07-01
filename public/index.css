@@ -70,7 +70,7 @@
 
 .carousel .background.a {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("cute_dogs-normal.jpg");
+    url("/public/images/dog2.jpg");
 }
 
 .carousel .background.b {
