@@ -126,7 +126,7 @@ body {
   margin-left: -10px;
 }
 .chat .chat-history .my-message {
-  background: #86bb71;
+  background: #ebdf3d;
 }
 .chat .chat-history .other-message {
   background: #94c2ed;
@@ -176,7 +176,7 @@ body {
   color: #86bb71;
 }
 .offline {
-  color: #e38968;
+  color: #44e635;
 }
 .me {
   color: #94c2ed;
