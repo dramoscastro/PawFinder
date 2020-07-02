@@ -12,15 +12,17 @@ CREATE TABLE users
 	(255) NOT NULL,
     last_name varchar
 	(255) NOT NULL,
+	state varchar
+	(255) NOT NULL,
+	city varchar
+	(255) NOT NULL,
 	email VARCHAR
 	(255),
 	username VARCHAR
 	(255),
-    zipcode VARCHAR
-	(5),
-
+   foster varchar
+	(255) NOT NULL,
     password VARCHAR(255) NOT NULL,
-
     PRIMARY KEY
 	(id)
 );

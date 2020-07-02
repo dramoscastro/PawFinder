@@ -12,14 +12,14 @@
 }
 
 body {
-  background: white;
+  background: #083d77;
   overflow: hidden;
   font-family: sans-serif;
 }
 
 .tinder {
   width: 100vw;
-  height: 700px;
+  height: 620px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
