@@ -2,11 +2,14 @@
   margin-top: 75px;
   margin-bottom: 50px;
 }
+body {
+  background: #083d77;
+}
 
 .mm-survey-container {
   width: 100%;
   min-height: 600px;
-  background: #fafafa;
+  background: white;
 }
 
 .mm-survey-results-container {
