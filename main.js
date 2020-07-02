@@ -64,6 +64,10 @@ app.get("/message", function (req, res) {
   res.render("messages.ejs");
 });
 
+app.get("/profilepage", function (req, res) {
+  res.render("profilepage.ejs");
+});
+
 //GET MAIN SWIPE PAGE
 app.get("/mainswipe", function (req, res) {
   // api call to get all pets from petfinder
