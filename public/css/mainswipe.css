@@ -19,7 +19,7 @@ body {
 
 .tinder {
   width: 100vw;
-  height: 620px;
+  height: 700px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -70,6 +70,7 @@ body {
   justify-content: center;
   align-items: flex-end;
   z-index: 1;
+  
 }
 
 .tinder--card {
