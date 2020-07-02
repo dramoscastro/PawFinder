@@ -6,15 +6,20 @@
   margin: 0;
 }
 
+#logo {
+  height: 50px;
+  width: 50px;
+}
+
 body {
-  background: white;
+  background: #083d77;
   overflow: hidden;
   font-family: sans-serif;
 }
 
 .tinder {
   width: 100vw;
-  height: 100vh;
+  height: 700px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -65,6 +70,7 @@ body {
   justify-content: center;
   align-items: flex-end;
   z-index: 1;
+  
 }
 
 .tinder--card {
@@ -118,11 +124,10 @@ body {
 
 .tinder--buttons button {
   border-radius: 50%;
-  line-height: 60px;
   width: 60px;
   border: 0;
   background: #ffffff;
-  display: inline-block;
+
   margin: 0 8px;
 }
 
